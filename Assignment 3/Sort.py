@@ -30,4 +30,4 @@ def sort():
 
 getUserInput();
 sort();
-print(array);
+print(array)
