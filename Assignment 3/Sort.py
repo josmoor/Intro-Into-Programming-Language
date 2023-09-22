@@ -13,7 +13,7 @@ def getUserInput():
     if(userInput.isdigit()):
             array.append(int(userInput));
 
-    while userInput.isdigit():
+    while userInput.isdigit() and len(array) < 10:
         userInput = input("Enter a number (Use non-number to stop): ");
 
         if(userInput.isdigit()):
