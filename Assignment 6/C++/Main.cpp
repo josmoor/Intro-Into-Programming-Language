@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 
+// Main class of program.
 int main() {
 
     // Creates a new String object with a length of 4. Then a subtring of the
@@ -12,5 +13,6 @@ int main() {
         std::cout << "Error, the string within the Try-Block gives an OutOfBounds Exception.";
     }
 
+    // Return 0
     return 0;
 }
